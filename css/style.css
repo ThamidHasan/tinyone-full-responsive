@@ -29,8 +29,8 @@ body{
     background-color: #fcdb00;
     padding-bottom: 100px;
 }
-.c_ind{
-	bottom: -100px;
+.c_ind {
+    bottom: -85px;
 }
 .s_text {
 	margin: 100px 0;
@@ -40,12 +40,20 @@ body{
     font-size: 35px;
     color: #010101;
     font-weight: 700;
-    margin-bottom: 0;
 }
 .s_text h2 {
     font-size: 20px;
     color: #010101;
     font-weight: 300;
+}
+.s_text p{
+	color: #010101;
+}
+.s_text ul{
+	margin-bottom: 0 !important;
+}
+.s_text ul li{
+	margin-right: 0 !important;
 }
 .s_text ul li i {
     font-size: 42px;
@@ -137,7 +145,7 @@ body{
 }
 /*footer Start*/
 footer{
-	padding: 0 0 100px 0;
+	padding: 0 0 50px 0;
 	background-color: #010101;
 }
 address{
